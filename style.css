@@ -1,0 +1,119 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+body {
+	background: rgb(216, 194, 147);
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: bold;
+
+}
+
+h2 {
+	font-size: 32px;
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+
+}
+
+img{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 250px;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 80px;
+}
+
+.button {
+	background: rgb(219,165,19);
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px 15px;
+	margin: 50px;
+}
+
+.button:hover {
+	color: black;
+}
+
+.card-white {
+	background: white;
+	border-radius: 10px;
+	padding: 24px;
+	margin: 24px auto;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.4)
+}
+
+.card-white:hover {
+	background: rgb(237, 240, 233);
+}
+
+
+p{
+	margin: 32px 0;
+	font-size: 18px;
+
+}
+
+
+ul{
+	display: inline-flex;
+	/*padding: 0;*/
+	line-height: 25px;
+}
+
+i {
+	color:rgb(0, 114, 182);
+	font-size: 48px;
+}
+
+i:hover {
+	color: black;
+}
+
+li {
+	    list-style: none;
+}
+
+.about-me li {
+	line-height: 45px;
+
+}
+
+.work li {
+	line-height: 30px;
+
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+	.container {
+	width: 500px;
+	}
+}
+
+@media (max-width: 500) {
+	.container {
+	  width: 300px;
+	}
+}
+
